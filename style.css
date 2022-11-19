@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004889;
+}
+
+canvas {
+    background-color: #045ba9;
+}
+
+@media (max-width: 1000px) {
+    canvas {
+        width: 95%;
+    }
+}
+
+@media (max-height: 400px) {
+    canvas {
+        height: 95%;
+    }
+}
+
+@media (max-width: 1000px) {
+    @media (max-height: 450px) {
+        canvas {
+            width: 70%;
+        }
+    }
+}
